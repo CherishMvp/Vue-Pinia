@@ -1,10 +1,20 @@
 <script setup lang="ts">
 // This starter template is using Vue 3 <script setup> SFCs
 // Check out https://vuejs.org/api/sfc-script-setup.html#script-setup
-import HelloWorld from "./components/HelloWorld.vue";
+// import HelloWorld from "./components/HelloWorld.vue";
+import ProductsList from "@/components/productsList.vue";
+import ShoppingCart from "@/components/shoppingCart.vue";
 </script>
 
 <template>
+  <div style="text-align: left">
+    <h1>Pinia - 购物车实例</h1>
+    <hr />
+    <h2>商品列表</h2>
+    <ProductsList />
+    <hr />
+    <ShoppingCart />
+  </div>
   <!-- <div>
     <a href="https://vitejs.dev" target="_blank">
       <img src="/vite.svg" class="logo" alt="Vite logo" />
@@ -13,7 +23,7 @@ import HelloWorld from "./components/HelloWorld.vue";
       <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
     </a>
   </div> -->
-  <HelloWorld />
+  <!-- <HelloWorld /> -->
 </template>
 
 <style scoped></style>

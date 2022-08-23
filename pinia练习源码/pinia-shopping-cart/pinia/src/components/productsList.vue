@@ -1,7 +1,11 @@
 <template>
   <div>
     <ul>
-      <li v-for="product in productStore.allProducts" :key="product.id" v-show="product.inventory">
+      <li
+        v-for="product in productStore.allProducts"
+        :key="product.id"
+        v-show="product.inventory"
+      >
         <table>
           <tr>
             <td>{{ product.title }} - {{ product.price }}</td>
