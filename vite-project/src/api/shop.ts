@@ -6,9 +6,9 @@ export interface IProducts {
 }
 
 const _products: IProducts[] = [
-  { id: 1, title: "ipad 4 mini", price: 500.01, inventory: 2 },
-  { id: 2, title: "H&M T-shirt white", price: 10, inventory: 5 },
-  { id: 3, title: "Charli XCX - Sucker CD", price: 50, inventory: 7 },
+  { id: 1, title: "牛仔裤", price: 122, inventory: 2 },
+  { id: 2, title: "卫衣", price: 222, inventory: 5 },
+  { id: 3, title: "运动鞋", price: 322, inventory: 6 },
 ];
 // wait，封装了promise的定时器
 export const getProducts = async () => {

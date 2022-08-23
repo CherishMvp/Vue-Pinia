@@ -7,7 +7,7 @@
         名称:{{ c.title }}——价格:{{ c.price }}——数量:{{ c.quantity }}
       </li>
     </ul>
-    <p>商品总价: {{ cartStore.sum }}</p>
+    <p>商品总价: {{ cartStore.sum }}元</p>
     <p>
       <button @click="cartStore.check">结算</button>
     </p>

@@ -2,14 +2,16 @@
   <div>
     <ul>
       <li v-for="i in ProductsStore.allProducts">
-        {{ i.title }}——{{ i.price }}
-        <br />
+        名称:{{ i.title }}——{{ i.price }}元
+
         <button
           :disabled="i.inventory < 1"
           @click="cartStore.addProductToCart(i)"
         >
           添加到购物车
         </button>
+        <br />
+        <br />
       </li>
     </ul>
   </div>

@@ -8,7 +8,7 @@ import ShoppingCart from "@/components/shoppingCart.vue";
 
 <template>
   <div style="text-align: left">
-    <h1>Pinia - 购物车实例</h1>
+    <h1>Vue3+Pinia—购物车实例</h1>
     <hr />
     <h2>商品列表</h2>
     <ProductsList />
