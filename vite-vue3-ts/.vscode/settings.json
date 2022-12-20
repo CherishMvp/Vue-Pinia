@@ -1,0 +1,14 @@
+{
+  "prettier.requireConfig": false,
+  "editor.fontLigatures": false,
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[vue]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "prettier.configPath": "vite-vue3-ts-pinia/.prettierrc"
+}

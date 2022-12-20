@@ -1,0 +1,9 @@
+#center {
+  color: #31c40c;
+  height: 600px;
+  width: 800px;
+}
+#center button {
+  color: black;
+  background-color: #ed4;
+}
